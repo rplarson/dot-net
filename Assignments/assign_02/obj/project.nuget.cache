@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fnBSdJkkst3ACdDuUm7ralPHX75F0U2csT1hcfKuPs8ejBMAKMs6AnMNkEKKOwc9Vt+93KjsBddztJRQv3SwXg==",
+  "success": true,
+  "projectFilePath": "/home/jacobmc/Documents/jobs/western_technical_college/classes/spring_2023/intro_dot_net/section_100/repos/intro_dotnet_100/assignments/assign_02/assign_02.csproj",
+  "expectedPackageFiles": [
+    "/home/jacobmc/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
