@@ -18,6 +18,15 @@ Console.WriteLine("======================= BEGIN PROBLEM 1 =====================
     at each index on each iteration.
 
 */
+int[] IntArr = new int[10];
+for(int x=0; x<IntArr.Length; x++){
+    IntArr[x] = 10 + x;
+}
+
+for(int x=IntArr.Length-1; x>=0; x--){
+    Console.Write(IntArr[x] + ", ");
+}
+Console.WriteLine();
 
 Console.WriteLine("======================= END PROBLEM 1 ==============================");
 
@@ -43,14 +52,24 @@ Console.WriteLine("======================= BEGIN PROBLEM 2 =====================
     **Hint: remember how we have converted text to an int in our form example!**
 */
 
-    // Type your number and press enter
-    Console.WriteLine("Enter an integer:");
+    bool loop = true;
+    while(loop){
+        // Type your number and press enter
+        Console.WriteLine("Enter an integer:");
 
-    // Create a string variable and get user input from the keyboard and store it in the variable
-    string number = Console.ReadLine();
-
+        // Create a string variable and get user input from the keyboard and store it in the variable
+        string number = Console.ReadLine();
+        if(int.TryParse(number, out int m)){
+            Console.WriteLine("The integer you entered is: " + number);
+            loop = false;
+        }
+        else{
+            Console.WriteLine("You must enter an integer.");
+        }
+        
+    }
     // Print the value of the variable (userName), which will display the input value
-    Console.WriteLine("Number entered is: " + number);
+    
 
 Console.WriteLine("======================= END PROBLEM 2 ==============================");
 
@@ -84,6 +103,25 @@ Console.WriteLine("======================= BEGIN PROBLEM 3 =====================
 
 */
 
+int[] IntArray = new int[5];
+int i = 0;
+while(i<IntArray.Length){
+    Console.WriteLine("Enter an integer: ");
+    string number = Console.ReadLine();
+    if(int.TryParse(number, out int m)){
+        IntArray[i] = int.Parse(number);
+        i++;
+    }
+    else{
+        Console.WriteLine("You must enter an integer.");
+    }
+}
+for(int x=0; x<IntArray.Length; x++){
+    Console.Write(IntArray[x] + ", ");
+}
+Console.WriteLine();
+
+
 Console.WriteLine("======================= END PROBLEM 3 ==============================");
 
 Console.WriteLine("======================= BEGIN PROBLEM 4 ==============================");
@@ -105,6 +143,32 @@ Console.WriteLine("======================= BEGIN PROBLEM 4 =====================
 */
 
     string sentence = "All the apples in the Alexandria Orchard are ready to be picked.";
+    string[] words = sentence.Split(' ');
+    string codeSentence = "";
+    foreach(string word in words){
+        
+        foreach (char letter in word.ToLower()){
+            
+            if(letter.Equals('a')){
+                codeSentence += "@";
+            }
+            else if(letter.Equals('o')){
+                codeSentence += "0";
+            }
+            else if(letter.Equals('l')){
+                codeSentence += "1";
+            }
+            else if(letter.Equals('e')){
+                codeSentence += "3";
+            }
+            else{
+                codeSentence += letter;
+            }                    
+        }
+        codeSentence += " ";
+    }
+    
+    Console.WriteLine(codeSentence);
     
 
 Console.WriteLine("======================= END PROBLEM 4 ==============================");

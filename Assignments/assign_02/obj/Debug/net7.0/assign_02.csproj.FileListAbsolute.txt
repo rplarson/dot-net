@@ -1,0 +1,15 @@
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.csproj.AssemblyReference.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.AssemblyInfoInputs.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.AssemblyInfo.cs
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.csproj.CoreCompileInputs.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\bin\Debug\net7.0\assign_02.exe
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\bin\Debug\net7.0\assign_02.deps.json
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\bin\Debug\net7.0\assign_02.runtimeconfig.json
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\bin\Debug\net7.0\assign_02.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\bin\Debug\net7.0\assign_02.pdb
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\refint\assign_02.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.pdb
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\assign_02.genruntimeconfig.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_02\obj\Debug\net7.0\ref\assign_02.dll
