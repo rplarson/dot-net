@@ -1,0 +1,6 @@
+Employee Id: 4fcd662a-e317-45f8-a5fc-d6c7042f2be8
+Employee Name: John Doe
+Employee Annual Salary: 100100
+Employee Position: 47285220-ed1a-42fb-a623-33daff09c6d2
+Employee Position Description: Software Engineer
+Benefits: 
