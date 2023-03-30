@@ -1,0 +1,15 @@
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\bin\Debug\net7.0\assign_03_tvshows.exe
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\bin\Debug\net7.0\assign_03_tvshows.deps.json
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\bin\Debug\net7.0\assign_03_tvshows.runtimeconfig.json
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\bin\Debug\net7.0\assign_03_tvshows.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\bin\Debug\net7.0\assign_03_tvshows.pdb
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.csproj.AssemblyReference.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.AssemblyInfoInputs.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.AssemblyInfo.cs
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.csproj.CoreCompileInputs.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\refint\assign_03_tvshows.dll
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.pdb
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\assign_03_tvshows.genruntimeconfig.cache
+C:\Users\003053449\Documents\dot-net\Assignments\assign_03_tvshows\obj\Debug\net7.0\ref\assign_03_tvshows.dll

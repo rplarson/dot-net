@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "assign_03_tvshows/1.0.0": {
+        "runtime": {
+          "assign_03_tvshows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "assign_03_tvshows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
