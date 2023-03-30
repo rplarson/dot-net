@@ -64,39 +64,94 @@ Directory Example Begin
 
 //File.WriteAllText(fileName, content);
 
-string business = "./my_employees";
+// string business = "./my_employees";
 
-if(!Directory.Exists(business)){
-    Directory.CreateDirectory(business);
-}
-Directory.SetCurrentDirectory(business);
+// if(!Directory.Exists(business)){
+//     Directory.CreateDirectory(business);
+// }
+// Directory.SetCurrentDirectory(business);
 
-Employee emp = microsoft.Employees[0];
-
-
-string empFile = $"{emp.Id}.txt";
-
-string empContent = $@"Employee Id: {emp.Id}
-Employee Name: {emp.FullName}
-Employee Annual Salary: {emp.AnnualSalary}
-Employee Position: {emp.Position.Id}
-Employee Position Description: {emp.Position.Description}
-Benefits: 
-";
-foreach(Benefit benefit in emp.Benefits){
-empContent += $@"   ID: {benefit.Id}
-    Description: {benefit.Description}
-    Additional Amount: {benefit.Additional}
-    ---------------------------
-";
-}
+// Employee emp = microsoft.Employees[0];
 
 
- File.WriteAllText(empFile, empContent);
+// string empFile = $"{emp.Id}.txt";
+
+// string empContent = $@"Employee Id: {emp.Id}
+// Employee Name: {emp.FullName}
+// Employee Annual Salary: {emp.AnnualSalary}
+// Employee Position: {emp.Position.Id}
+// Employee Position Description: {emp.Position.Description}
+// Benefits: 
+// ";
+// foreach(Benefit benefit in emp.Benefits){
+// empContent += $@"   ID: {benefit.Id}
+//     Description: {benefit.Description}
+//     Additional Amount: {benefit.Additional}
+//     ---------------------------
+// ";
+// }
+
+
+//  File.WriteAllText(empFile, empContent);
 
 
 
 /**************************
 Directory Example End
 ***************************/
+
+/**************************
+Directory example start
+****************************/
+
+// string cwd = Directory.GetCurrentDirectory();
+// string[] directories = Directory.GetDirectories(cwd);
+
+// Console.WriteLine($"Number of directories: {directories.Length}");
+
+// Console.WriteLine("Directory List:");
+// foreach(string dir in directories){
+//     Console.WriteLine(dir);
+// };
+
+
+/*********************
+Directory example End
+*******************/
+
+/**************************
+List example start
+****************************/
+
+// List<int> myList = new List<int>();
+// myList.Add(23);
+// myList.Add(243);
+// myList.Add(2);
+
+// foreach(int item in myList){
+//     Console.WriteLine(item);
+// }
+
+/*********************
+List example End
+*******************/
+
+/*****************
+CompanyInfo Example Start
+******************/
+
+CompanyInfo walley = new CompanyInfo("Walley", microsoft);
+
+Console.WriteLine($"Num of employees: {walley.GetNumberOfEmployees()}");
+
+Cofounder bill = walley.GetCofounderByName("Bill Gates");
+
+Console.WriteLine($"The id of Bill: {bill.Id}");
+
+/*******************
+CompanyInfo Example end
+**********************/
+
+
+
 Console.WriteLine("didn't crash");
