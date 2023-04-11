@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cyN5OHBdyLR2OxsHU5wTTAYnf3FTDl2HSHk/DRo73RzeiVkR0BOvfMT9CJTYTUiafPVU21LXuhOhdD9poorpxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\003053449\\Documents\\dot-net\\Examples\\example_06_fruit\\example_06_fruit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\003053449\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

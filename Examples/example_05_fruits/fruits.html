@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	// WRITE YOUR CODE HERE
+	
+	const fruitBasket =
+	[
+		{ name: "apple", color: "red", weight: 120 },
+		{ name: "banana", color: "yellow", weight: 80 },
+		{ name: "cherry", color: "red", weight: 2 }
+	];
+
+	//Write a loop that goes through the array and prints out each fruit
+
+	// fruitBasket.forEach(fruit => {
+	// 	console.log(fruit);
+	// });
+
+	// for(const fruit of fruitBasket){
+	// 	console.log(fruit);
+	// 	console.log("-------------------------");
+	// }
+
+	const fruitMatrix = [
+		[
+			{ name: "apple", color: "red", weight: 120 },
+			{ name: "banana", color: "yellow", weight: 80 },
+			{ name: "cherry", color: "red", weight: 2 }
+		],
+		[
+			{ name: "orange", color: "orange", weight: 300 },
+			{ name: "kiwi", color: "green", weight: 100 },
+			{ name: "strawberry", color: "red", weight: 15 }
+		],
+		[
+			{ name: "blueberry", color: "blue", weight: 1 },
+			{ name: "grape", color: "purple", weight: 5 },
+			{ name: "mango", color: "orange", weight: 400 }
+		],
+		[
+			{ name: "raspberry", color: "red", weight: 3 },
+			{ name: "pear", color: "green", weight: 200 },
+			{ name: "peach", color: "orange", weight: 150 }
+		],
+		[
+			{ name: "pineapple", color: "brown", weight: 900 },
+			{ name: "watermelon", color: "green", weight: 6000 },
+			{ name: "cantaloupe", color: "tan", weight: 1200 }
+		],
+		[
+			{ name: "plum", color: "purple", weight: 60 },
+			{ name: "blackberry", color: "black", weight: 2 },
+			{ name: "papaya", color: "orange", weight: 500 }
+		]
+	];
+	
+	console.log("fruitMatrix2: ", fruitMatrix[2]);
+	
+	
+	for(let i = 0; i<fruitMatrix.length; i++){
+		console.log(`Basket ${i+1}`)
+		for(const fruit of fruitMatrix[i]){
+			console.log("Fruit: ",fruit);
+			// console.log(`Color: ${fruit.color}`);
+			// console.log(`Weight: ${fruit.weight}`);
+			// console.log("");
+		}
+		console.log("---------------------------------------------------------------------");
+	}
+
+
+</script>
+
+</html>
